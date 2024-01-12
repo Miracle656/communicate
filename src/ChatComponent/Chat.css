@@ -1,0 +1,47 @@
+.header {
+    /* background-image: url('https://i.pinimg.com/originals/e8/d9/4e/e8d94e1e8b6b530ad315e9385290141b.jpg'); */
+    background-color: #15A085;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+}
+
+.header .cta{
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.body{
+    background: white;
+}
+
+.app__form{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0, 128, 75, 0.233);
+    width: 100%;
+    /* margin: 5px; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.app__formControl{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.app__input{
+    flex: 1;
+}
+
+.app__iconButton{
+    flex: 0;
+}
